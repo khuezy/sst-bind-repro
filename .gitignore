@@ -1,0 +1,10 @@
+**/*.DS_Store
+
+.vscode
+
+# sst
+.sst
+.sst*
+.build
+
+node_modules
