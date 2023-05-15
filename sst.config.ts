@@ -7,8 +7,8 @@ export default {
       default:
         return {
           name: "sst-issue-repro",
-          region: "eu-north-1",
-          profile: "some-profile"
+          region: "us-east-1",
+          profile: "default"
         }
     }
   },

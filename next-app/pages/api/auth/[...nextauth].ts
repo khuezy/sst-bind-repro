@@ -1,9 +1,10 @@
-import config from "@/config";
+// import config from "@/config";
 import { AuthOptions } from "next-auth";
 import Credentials from "next-auth/providers/credentials";
-
+import { Config } from 'sst/node/config'
+console.log(Config.NEXTAUTH_SECRET)
 export const authOptions: AuthOptions = {
-  secret: config.authSecret,
+  secret: Config.NEXTAUTH_SECRET,
   providers: [
     Credentials({
       name: 'Credentials',
